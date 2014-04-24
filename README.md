@@ -1,6 +1,6 @@
 # compojure-template-mvnstyle
 
-A maven style leiningen template for projects using [Compojure](https://github.com/weavejester/compojure).
+A maven style [Leiningen](https://github.com/technomancy/leiningen) template for projects using [Compojure](https://github.com/weavejester/compojure).
 
 ## Usage
 
