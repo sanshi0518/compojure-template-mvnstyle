@@ -18,7 +18,7 @@ Distributed under the Eclipse Public License, the same as Clojure.
 
 # Creating Leiningen Templates?
 
-The following steps show the creating of present `compojure-template-mvnstyle` template.
+The following steps show the creating of present `compojure-mvnstyle` template.
 
 ## Create a template project
 
