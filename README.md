@@ -73,7 +73,7 @@ Firstly, install the template using:
 
 It will package the template project and install the jar to local maven repository.
 
-Secondly, add it as a plugin to your profile under ~/.lein/profiles.clj using the following format:
+Secondly, add it as a plugin to your profile under `~/.lein/profiles.clj` using the following format:
 
 	{:user
       {:plugins [[compojure-mvnstyle/lein-template "0.1.0-SNAPSHOT"]]}}
