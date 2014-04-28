@@ -1,10 +1,11 @@
-(ns {{namespace}}.handler
+(ns {{namespace}}.routes
   (:require [compojure.handler :as handler]
             [compojure.route :as route]
-            [compojure.core :refer :all]))
+            [compojure.core :refer :all])
+  (:use [{{namespace}}.handler]))
 
 (defroutes app-routes
-  (GET "/" [] "Hello World")
+  (GET "/" [] hello)
   (route/resources "/")
   (route/not-found "Not Found"))
 
